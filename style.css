@@ -5,4 +5,74 @@ body {
         sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    width: 100%;
+}
+
+.importan {
+    width: 35%;
+}
+
+.importan img {
+    width: 300px;
+    position: fixed;
+    padding-right: 10px;
+
+}
+
+.hefe-width {
+    width: 40%;
+
+    margin-left: 75px;
+
+}
+
+#spcly-color {
+    border-left: 4px solid;
+    border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+    border-image-slice: 1;
+}
+
+.color-style {
+    padding-right: 10px;
+    margin-left: 20px;
+}
+
+
+h1 {
+    font-size: 50px;
+    margin-left: 10px;
+    margin-left: 10px;
+
+}
+
+h2 {
+    color: sandybrown;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+
+p {
+    font-size: 18px;
+    color: gray;
+}
+
+.button {
+    text-decoration: none;
+
+    font-size: 20px;
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.small {
+    margin-top: 50px;
 }
