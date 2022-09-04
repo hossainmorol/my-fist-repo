@@ -8,7 +8,7 @@ body {
     box-sizing: border-box;
 }
 
-section {
+.card-body {
     display: flex;
     width: 100%;
 }
@@ -19,14 +19,12 @@ section {
 
 .importan img {
     width: 300px;
-    position: fixed;
     padding-right: 10px;
 
 }
 
 .hefe-width {
     width: 40%;
-
     margin-left: 75px;
 
 }
@@ -76,3 +74,52 @@ p {
 .small {
     margin-top: 50px;
 }
+
+/* card section */
+
+section {
+    width: 100%;
+
+}
+
+.illustrator-img {
+    width: 120px;
+    margin-left: auto;
+
+}
+
+.title {
+    text-align: center;
+}
+
+span {
+    color: chocolate;
+}
+
+.sab-title {
+    text-align: center;
+}
+
+.card-title {
+    width: 33%;
+    padding-left: 75px;
+
+}
+
+h3 {
+    margin-left: 20px;
+}
+
+.important-text {
+    margin-left: 15px;
+}
+
+#style-corol {
+    background-color: burlywood;
+    border-radius: 8px;
+    margin: 4%;
+    padding: 12px;
+
+}
+
+/*  */
