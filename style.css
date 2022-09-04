@@ -3,7 +3,7 @@ body {
         sans-serif;
     font-family: 'Roboto Condensed',
         sans-serif;
-    margin: 0;
+
     padding: 0;
     box-sizing: border-box;
 }
@@ -123,3 +123,44 @@ h3 {
 }
 
 /*  */
+.osm-img {
+    width: 350px;
+    padding-left: 90px;
+    margin-top: 70px;
+
+}
+
+.offical-section {
+    display: flex;
+    width: 100%;
+    background-image: url("img/shape-1.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 200px;
+    margin: 3%;
+
+}
+
+.text-section {
+    margin: 5px;
+    margin-left: 3%;
+}
+
+h4 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.pra-text {
+    font-size: 20px;
+
+}
+
+.small-btn {
+    text-decoration: none;
+    background-color: chocolate;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+
+}
