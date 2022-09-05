@@ -126,7 +126,8 @@ h3 {
 .osm-img {
     width: 350px;
     padding-left: 90px;
-    margin-top: 70px;
+    /* margin-bottom: 40%; */
+
 
 }
 
@@ -163,4 +164,42 @@ h4 {
     padding: 15px;
     border-radius: 5px;
 
+}
+
+.project-section {
+    background-image: url("img/shape-1.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200px;
+
+
+}
+
+.project-section img {
+    padding-top: 100px;
+}
+
+.header-section {
+    width: 100%;
+    display: flex;
+    justify-items: end;
+
+}
+
+.header-text {
+    padding: 15%;
+}
+
+.project-img {
+    width: 350px
+}
+
+.off-img {
+    margin: 2%;
+    padding-right: 20px;
+    margin-bottom: 30%;
+}
+
+.hollo {
+    background-color: black;
 }
