@@ -187,11 +187,15 @@ h4 {
 }
 
 .header-text {
-    padding: 15%;
+    /* padding: 15%; */
+    padding: 0;
+    margin: 0;
+    padding-left: 15%;
+    margin-top: 70px;
 }
 
 .project-img {
-    width: 350px
+    width: 360px
 }
 
 .off-img {
@@ -200,6 +204,24 @@ h4 {
     margin-bottom: 30%;
 }
 
-.hollo {
+/* .hollo {
     background-color: black;
+} */
+
+.fottet {
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+
+}
+
+.footer-text {
+    color: white;
+    font-style: italic;
+}
+
+footer {
+    padding: 0;
+    margin: 0;
+
 }
