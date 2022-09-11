@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 10px 15px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkblue;
+
+}
+
+.nav-title {
+    display: flex;
+}
+
+.nav-title i {
+    font-size: 30px;
+    color: white;
+}
+
+.nav-title h3 {
+    color: white;
+    font-size: 25px;
+}
+
+.navber li {
+    display: inline-block;
+    list-style: none;
+    color: white;
+
+}
+
+/* header section end */
+/* players section start */
+
+main {
+    max-width: 100%;
+    background-color: white;
+
+}
+
+.to-players {
+    background-color: whitesmoke;
+    width: 70%;
+    margin: auto;
+    border-radius: 8px;
+
+}
+
+.player-title {
+    color: blue;
+    padding-right: 20px;
+
+
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.players img {
+    width: 76;
+    height: 76px;
+}
+
+.player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .player section end */
+
+/* blog section start */
+
+.top-blogs {
+    background-color: whitesmoke;
+    width: 73%;
+    height: 30%;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.blog {
+    display: flex;
+
+}
+
+.blog img {
+    width: 170px;
+    height: 130px;
+}
+
+.blog-title {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
