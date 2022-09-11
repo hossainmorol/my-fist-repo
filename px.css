@@ -9,7 +9,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: darkblue;
+    background-color: rgb(20, 20, 237);
 
 }
 
@@ -79,12 +79,25 @@ main {
 
 /* blog section start */
 
+.course-header {
+    background-color: whitesmoke;
+    width: 70%;
+    margin: auto;
+    border-radius: 8px;
+}
+
 .top-blogs {
     background-color: whitesmoke;
-    width: 73%;
+    width: 70%;
     height: 30%;
     margin: auto;
     border-radius: 8px;
+}
+
+.blogs-title {
+    color: blue;
+    padding-right: 20px;
+    font-size: 25px;
 }
 
 .blogs {
@@ -95,7 +108,6 @@ main {
 
 .blog {
     display: flex;
-
 }
 
 .blog img {
@@ -108,3 +120,42 @@ main {
     padding: 0;
     margin-top: 10px;
 }
+
+/* coures section start */
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.course img {
+    width: 250px;
+    width: 250px;
+}
+
+.course-detail {
+    font-size: 20px;
+}
+
+.course-detail a {
+    text-decoration: none;
+    color: red;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+}
+
+.course-info {
+    padding: 0;
+    margin: 0;
+}
+
+.ratings i {
+    color: tomato;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}
+
+.duration span {}
