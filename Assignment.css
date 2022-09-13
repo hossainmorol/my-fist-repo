@@ -200,3 +200,22 @@ hr {
     padding-top: 10px;
 
 }
+
+/* footer section start */
+
+footer {
+    background-color: #120E43;
+    margin-top: 80px;
+
+}
+
+.footer-text {
+    text-align: center;
+    color: white;
+    padding: 25px 0;
+}
+
+.footer-text i {
+    padding: 0 5px;
+    font-size: 18px;
+}
