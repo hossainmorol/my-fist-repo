@@ -159,7 +159,44 @@ hr {
 }
 
 .smple-text {
+    font-size: 18px;
+    color: gray;
+
+}
+
+/* another banner section start */
+
+.another-banner {
+    width: 100%;
+    padding-top: 30px;
+
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15%;
+
+}
+
+.banner-text {}
+
+.banner-text h1 {
+    font-size: 40px;
+}
+
+.banner-text p {
     font-size: 20px;
     color: gray;
+}
+
+.small-btn {
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #FF3C83;
+    color: white;
+    text-align: center;
+    padding: 8px 15px;
+    padding-top: 10px;
 
 }
