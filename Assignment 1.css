@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+
+
 /* slide show start */
 button {
     background-color: white;
@@ -15,4 +17,20 @@ button {
 .slider-text h5 {
     font-size: 45px;
 
+}
+
+.banner-text h1 {
+    color: #0A0826;
+    font-size: 38px;
+}
+
+.banner-text p {
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
+.small-btn {
+    background-color: #3F87F5;
+    padding: 8px 30px;
+    color: white;
 }
