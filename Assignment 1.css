@@ -14,6 +14,10 @@ button {
 
 }
 
+.slider-text {
+    bottom: 55px;
+}
+
 .slider-text h5 {
     font-size: 45px;
 
@@ -33,4 +37,106 @@ button {
     background-color: #3F87F5;
     padding: 8px 30px;
     color: white;
+}
+
+.btn-style {
+
+    background-color: #ffff;
+    color: #3F87F5;
+    padding: 9px 40px;
+    margin: 5px;
+}
+
+/* our package start */
+
+.our-text {
+    padding-top: 25px;
+}
+
+.our-text h1 {
+    font-size: 38px;
+    color: #0A0826;
+}
+
+.our-text h4 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #0A0826;
+}
+
+.our-text h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #0A0826;
+    margin-bottom: 10px;
+}
+
+.our-text li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #848199;
+}
+
+.our-text i {
+    color: #3F87F5;
+}
+
+.our-text p {
+    font-size: 16px;
+    font-weight: 400px;
+    color: #848199;
+}
+
+.differnt {
+    /* width: 292px;
+    height: 480px; */
+}
+
+.differnt-style {
+    background-color: #3F87F5;
+    color: white;
+    list-style: none;
+    border-radius: 15px;
+    padding: 40px 10px 5px 10px;
+}
+
+.differnt-style h4 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.differnt-style h2 {
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.differnt-style p {
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+@media only screen and (max-width:767px) {
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-caption {
+        top: 8px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 12px;
+    }
+
+    .carousel-caption a {
+        padding: 10px 15px;
+    }
+
+    .carousel-caption p {
+        font-size: 12px;
+    }
+
 }
